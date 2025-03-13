@@ -7,7 +7,7 @@ public class Main extends GestorFicheros{
         super(inputFile, outputFile);
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] P) throws IOException {
         Main a1 = new Main("src/Ficheros/EjSorpresa/entrada.txt","src/Ficheros/EjSorpresa/salida.txt");
 
         a1.processFile();
